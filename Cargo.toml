@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Erik Chancy <erikuchancy@gmail.com>"]
 
 [dependencies]
+markov = "0.0.31"
