@@ -37,7 +37,7 @@ fn main() {
 
 	let output = if cfg!(target_os = "windows") {
     	Command::new("cmd")
-            .args(&["/C", "echo hello"])
+            .args(&["/C", "clip < lol.txt"])
             .output()
             .expect("failed to execute process")
 	} else {
