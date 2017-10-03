@@ -23,7 +23,7 @@ fn main() {
         Ok(file) => file,
     };
 
-    for x in 1..4 {
+    for x in 0..4 {
     	let status: String = chain.generate_str();
 
     	match file.write(format!("{} {}", status, "\n").as_bytes()) {
